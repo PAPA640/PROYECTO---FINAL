@@ -1,0 +1,14 @@
+/*GLOBAL*/
+@import "./Global/normalize";
+@import "./Global/var";
+@import "./Global/mixind";
+@import "./Global/map";
+
+/*PARTES*/
+@import "./partes/header";
+/*PAGES*/
+@import "./pages/inicio";
+@import "./pages/productos";
+@import "./pages/info";
+@import "./pages/sobre-mi";
+@import "./pages/contacto";

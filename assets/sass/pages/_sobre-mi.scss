@@ -1,0 +1,75 @@
+
+
+// IMÁGEN //
+.img-duena{
+  border-top: 1px solid #ddaa44;
+  width: 100%;
+  height: 90%;
+  margin-top: $spacing-xsmall;
+}
+
+// ART. SOBRE MÍ //
+.article-mi{
+  background-color: #efe2e2;
+  background-image: url("../../assets/img/sobre_mi/fondo.jpg");
+  border-bottom: 1px solid #ddaa44;
+
+  &__h1{
+    color: #a29b9b;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: $font-title;
+    padding: 1rem;
+  }
+
+  &__p{
+    color: #938f86;
+      margin-top: $spacing-medium;
+      text-align: center;
+      line-height: 30px;
+      font-size: $text-small;
+    }
+    :nth-child(2){
+      margin-top: 0;
+    }
+  
+}
+
+@media screen and (min-width: 568px) {
+  .img-duena{
+    position: absolute;
+  }
+
+  .article-mi{
+    position: sticky;
+    width: 50%;
+    margin-top: 1.1rem;
+    margin-left: 47%;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+  .img-duena{
+    position: absolute;
+  }
+
+  .article-mi{
+    position: sticky;
+    width: 50%;
+    margin-top: 1.1rem;
+    margin-left: 47%;
+    border: 1px solid #ddaa44;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .img-duena{
+    text-align: center;
+    position: absolute;
+    height: 70%;
+    border: none;
+  }
+
+  
+}

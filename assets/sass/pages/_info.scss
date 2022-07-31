@@ -1,0 +1,98 @@
+// TIPS //
+.tips{
+  margin-top: $spacing-medium;
+  background-color: #F24A72;
+  border-radius: 10px 10px 0 0;
+
+  &__h2{
+    text-align: center;
+    font-size: $text-medium;
+    font-family: $font-title;
+    padding: 1rem;
+  }
+
+  &__p{
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: $text-base;
+    line-height: 22px;
+    margin: 0;
+  }
+}
+
+.consejos{
+  background-color: #FDAF75;
+  border-radius: 0 0 10px 10px;
+
+  &__h2{
+    text-align: center;
+    font-family: $font-title;
+    font-size: $text-medium;
+    padding: 1rem;
+  }
+
+  &__ul{
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: $text-base;
+    line-height: 22px;
+    list-style: disc;
+  }
+}
+
+// ACORDEON //
+
+.fondo-item1{
+  background-image: url("../../../assets/img/index/Fondos/fondo4.jpg");
+  border: 2px solid #B93160;
+}
+.btn-1{
+  background-color: #B93160;
+}
+// //
+.fondo-item2{
+  background-image: url("../../../assets/img/index/Fondos/fondo4.jpg");
+  border: 2px solid #D75281;
+}
+.btn-2{
+  background-color: #D75281;
+
+}
+
+// //
+.fondo-item3{
+  background-image: url("../../../assets/img/index/Fondos/fondo4.jpg");
+  border: 2px solid #D61C4E;
+}
+.btn-3{
+  background-color: #D61C4E;
+}
+
+// BUTTON //
+.myButton {
+  margin-top: 5rem;
+	box-shadow: 2px 5px 1px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:1px 1px 22px #810e05;
+  
+  &:hover{
+  color: #000;
+  background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+
+  &:active{
+  position:relative;
+	top:1px;
+  }
+}
+
+}

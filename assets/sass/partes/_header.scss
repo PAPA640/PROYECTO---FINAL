@@ -1,0 +1,28 @@
+.bg-nav{
+  background-color: $color-h-f;
+
+  .nav-link:hover{
+    color: white;
+  background-color: orange;
+  transition: .7s;
+  border-radius: 10px;
+  }
+
+  .navbar__logo{
+    margin-left: $spacing-small;
+  }
+  
+  .navbar__button{
+    margin-right: $spacing-small;
+  }
+
+  .navbar-collapse{
+    margin-left: $spacing-small;
+  }
+
+  .navbar-nav{
+    margin-right: $spacing-small;
+    font-size: $text-base;
+    gap: 2rem;
+  }
+}

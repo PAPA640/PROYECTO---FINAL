@@ -1,0 +1,122 @@
+.title-contact{
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.personal-information{
+  line-height: 50px;
+  border-bottom: 1px solid #000;
+}
+
+// FORM //
+.form-contact{
+  margin-top: 10rem;
+  background-color: #efefef;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+  width: 90%;
+  border-radius: 5px ;
+  
+}
+// LABEL//
+.form-label{
+  font-family: $font-title;
+  font-size: $text-base;
+  padding: .5rem;
+  color: #f3b87d;
+}
+// INPUT//
+.form-control-contact{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  border-bottom: 2px solid #fff;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  outline: none;
+  transition: all .5s;
+
+  &:hover{
+    transform: scale(1.1, 1.1);
+    border: 1px solid #f3b87d;
+  }
+}
+// TEXTTAREA//
+.form-control-text{
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  outline: none;
+  transition: all .5s;
+
+  &:hover{
+
+    border: 1px solid #f3b87d;
+  }
+
+  }
+// BTN FORM//
+  .btn-contact{
+    background-color: #f3b87d;
+    padding: .5rem;
+    border: #f3b87d;
+    border-radius: 5px;
+    color: #fff;
+    &:hover{
+      background-color: lightsteelblue;
+    }
+  }
+// MEDIA QUERY//
+  @media screen and (min-width: 578px) {
+    .form-contact{
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .form-control-contact{
+      border-bottom: 1px solid grey;
+
+      &:hover{
+        margin: .5rem;
+        transform: scale(1.1, 1.1);
+        border: 1px solid #f3b87d;
+      }
+    }
+
+    .form-control-text{
+      border: 1px solid grey;
+      }
+        
+  }
+
+  @media screen and (min-width:768px){
+    .form-contact{
+      background-color: #0000;
+      box-shadow: 0 0px 0px rgba(0,0,0,0);
+      width: 70%;
+    }
+    
+  }
+
+  @media screen and (min-width: 992px){
+    .form-contact{
+      width: 70%;
+    }
+    
+  }
+
+  @media screen and (min-width: 1200px){
+    .form-contact{
+      width: 60%;
+    }
+    
+  }
+
+  @media screen and (min-width: 1400px){
+    .form-contact{
+      width: 30%;
+    }
+          
+  }
+
