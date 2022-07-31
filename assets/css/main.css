@@ -58,6 +58,7 @@ img {
   text-align: center;
   font-size: 1.6em;
   font-family: "Roboto Slab", serif;
+  margin: 5rem;
   margin-top: 7rem;
   gap: 10px; }
   .container-flex .cardss__link {
