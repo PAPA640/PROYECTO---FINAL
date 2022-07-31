@@ -70,6 +70,9 @@
     height: 70%;
     border: none;
   }
-
-  
+}
+@media screen and (min-width: 1400px){
+  .article-mi{
+    margin-top: 2rem;
+  }
 }
